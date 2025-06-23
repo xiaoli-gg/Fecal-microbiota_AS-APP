@@ -1,4 +1,10 @@
 import streamlit as st
+# 设置页面配置
+st.set_page_config(
+    page_title='AI-assisted ankylosing spondylitis (AS) Prediction Tool',
+    page_icon="🩺",
+    layout="wide"
+)
 import joblib
 import numpy as np
 import pandas as pd
@@ -44,12 +50,7 @@ feature_ranges = {
     #"Bronchoscopy": {"type": "categorical", "options": [0, 1]},
 }
 
-# 设置页面配置
-st.set_page_config(
-    page_title='AI-assisted ankylosing spondylitis (AS) Prediction Tool',
-    page_icon="🩺",
-    layout="wide"
-)
+
 
 st.title("AI-Assisted Prediction of Ankylosing Spondylitis (AS) Based on Fecal Microbiota")
 
