@@ -43,10 +43,10 @@ background = load_background_data()
 # 特征范围定义（修正了语法错误）
 feature_ranges = {
     "Chlamydia.psittaci_83554": {"type": "numerical", "min": 0, "max": 1, "default": 0.00056},
-    "Aliarcobacter.cryaerophilus_28198": {"type": "numerical", "min": 0, "max": 1, "default": 0.00002},
-    "Collinsella.aerofaciens_74426": {"type": "numerical", "min": 0, "max": 1, "default": 0.00057},  # 修正：添加逗号
+    "Anaerotignum.sp..MB30.C6_3070814": {"type": "numerical", "min": 0, "max": 1, "default": 0.00002},
+    "Aliarcobacter.cryaerophilus_28198": {"type": "numerical", "min": 0, "max": 1, "default": 0.00057},  # 修正：添加逗号
     "Bifidobacterium.breve_1685": {"type": "numerical", "min": 0, "max": 1, "default": 0.00006},  # 修正：添加逗号
-    "Actinomyces.naeslundii_1655": {"type": "numerical", "min": 0, "max": 1, "default": 0},
+    "Phascolarctobacterium.faecium_33025": {"type": "numerical", "min": 0, "max": 1, "default": 0},
     #"Bronchoscopy": {"type": "categorical", "options": [0, 1]},
 }
 
